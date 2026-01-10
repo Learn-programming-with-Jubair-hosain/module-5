@@ -16,6 +16,15 @@
     color: #FD6E0A;
     font-weight: 900;
 }
+.menu li:hover{
+    background-color: #b2ce12;
+}
+.btn:hover{
+    background-color: blue;
+}
+.btn:hover{
+    color: rgb(238, 9, 9);
+}
 .btn{
     background-color: #FD6E0A;
     border: none;
@@ -28,7 +37,7 @@
 }
 
 .section-heading{
-    max-width: 827PX;
+    /* max-width: 827PX; */
     text-align: center;
     margin: 0 auto;
 }
@@ -55,7 +64,7 @@ header{
 
 nav{
     width: 71%;
-    max-width: 1140;
+    /* max-width: 1140; */
     /* border: 1px solid red; */
     margin: 0px auto;
     display: flex;
@@ -103,6 +112,10 @@ nav .menu a{
     color: #757575;
     line-height: 30px;
     margin-bottom: 30px;
+}
+.banner-image img{
+    width: 600px;
+    border-radius: 40px;
 }
 #banner .banner-image{
     max-width: 585px;
@@ -172,8 +185,8 @@ nav .menu a{
     padding: 130px;
 }
 #resume .resumr-container{
-    width: 71%;
-    max-width: 1140;
+    width: 60%;
+    /* max-width: 1140; */
     margin: 113px auto 0;
     display: flex;
     gap: 24px;
@@ -188,7 +201,7 @@ nav .menu a{
 
 }
 .resume-card{
-    max-width: 511px;
+    /* max-width: 511px; */
     margin-right: 47px;
 }
 .resume-card .card-titel{
@@ -219,7 +232,7 @@ footer{
 }
 footer .fooret-container{
     width: 71%;
-    max-width: 1140;
+    /* max-width: 1140; */
     margin: 0 auto;
     display: flex;
     gap: 116px;
